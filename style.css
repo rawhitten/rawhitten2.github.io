@@ -29,15 +29,16 @@ h2{
     border-right:currentColor;
     border-left:currentColor;
     background-color:silver;
-    width: 90%;
+    /*width: 90%;*/
 }
 
 #education{
     width:48%;
     float:left;
+    height: 25em;
 }
 #skills{
     width:48%;
     float:right;
-    min-height: 1em;
+    min-height: 25em;
 }
