@@ -3,56 +3,70 @@
   <head>
       <meta charset="utf-8">
       <title>Rebecca's Resume</title>
-      <nav>
-        <a href="#title">Contact Info</a>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div id="title">
+        <h1>Rebecca Whitten</h1>
+        <nav>
+        <a href="#contact-info">Contact Info</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
       </nav>
-  </head>
-  <body>
-    <section id="intro">
-      <div id="title" class="section">
-        <h1>Rebecca Whitten</h1>
+      </div>
+    </header>
+    <section id="content">
+      <div id="contact-info" class="section">
+        <h2>Contact Info</h2>
         <p> 1304 Apt D Mary Jane Cir., Blacksburg, VA, 24060</p>
         <a href="mailto:rawhitten@vt.edu">rawhitten@vt.edu</a>
       </div>
-    </section>
-    <section id="content">
       <div id="education" class="section">
         <h2>Education</h2>
-        <img src="./logo.png">
+        <img src="./logo.png" alt="Virginia Tech Logo">
         <h3>Virginia Tech</h3>
         <p>Bachelor of Science in Computer Science, 2023</p>   
-        <li>Minor in Music Technology</li>
-        <li>Honors College</li>
+        <ul>
+          <li>Minor in Music Technology</li>
+          <li>Honors College</li>
+        </ul>
       </div>
       <div id="skills" class="section">
         <h2>Skills</h2>
-        <li>Java</li>
-        <li>C</li>
-        <li>Python</li> 
-        <li>Go</li>
-        <li>Javascript</li>
-        <li>HTML</li>
+        <ul>
+          <li>Java</li>
+          <li>C</li>
+          <li>Python</li> 
+          <li>Go</li>
+          <li>Javascript</li>
+          <li>HTML</li>
+        </ul>
       </div>
       <div id="experience" class="section">
         <h2>Experience</h2>
         <h3>Los Alamos National Laboratory</h3>
         <em>Supercomputer Institute Intern</em>
         <p>Summer 2021</p>
-        <li>Completed a three-week bootcamp in the basics of cluster management, exploring tools like Ansible, Splunk, and Docker, and WareWulf</li>
-        <li>Presented research on how to utilize the TPM for a secure stateless boot in High Performance Computing </li>
+        <ul>
+          <li>Completed a three-week bootcamp in the basics of cluster management, exploring tools like Ansible, Splunk, and Docker, and WareWulf</li>
+          <li>Presented research on how to utilize the TPM for a secure stateless boot in High Performance Computing </li>
+        </ul>
         <h3>Virginia Tech Libraries, Applied Research in Immersive Environments and Simulations (ARIES)</h3>
         <em>Immersive Developer</em>
         <p>Fall 2020 - Present</p>
-        <li>Developed a web-based Augmented Reality tour in Playcanvas of Virginia Tech history</li>
-        <li>Reworking the tour currently into an interactive web app using Vue.js</li>
-        <li>Collaborating with a transdisciplinary team of Computer Science, Math, History, and Graphic Design students to design and code the tour</li>
+        <ul>
+          <li>Developed a web-based Augmented Reality tour in Playcanvas of Virginia Tech history</li>
+          <li>Reworking the tour currently into an interactive web app using Vue.js</li>
+          <li>Collaborating with a transdisciplinary team of Computer Science, Math, History, and Graphic Design students to design and code the tour</li>
+        </ul>
         <h3>TIC Summer Camp</h3>
         <em>Programming Counselor</em>
         <p>Summers 2019, 2020</p>
-        <li>Taught the basics of Java, JavaScript, and Logo to children from ages 6-15 </li>
-      </div>
+        <ul>
+          <li>Taught the basics of Java, JavaScript, and Logo to children from ages 6-15 </li>
+        </ul>
+        </div>
     </section>
   </body>

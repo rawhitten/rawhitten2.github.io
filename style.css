@@ -1,0 +1,43 @@
+/* This is my global selector */
+:root{
+    --banner-size: 8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-family:monospace;
+    font-size: 200%;
+}
+
+/*This selector affects the title, which is the fixed banner*/
+#title{
+    background-color:#ad3869;
+    width:100%;
+    padding:1%;
+    position: fixed;
+    min-height: var(--banner-size);
+}
+
+/*This selector affects each one of my content sections, 
+    each of which I have labelled with a section class*/
+.section{
+    padding-top:(var(--banner-size));
+    padding: 1%;
+    border-width: 0.25em;
+    border-style: solid;
+    border-top:currentColor;
+    border-right:currentColor;
+    border-left:currentColor;
+    background-color:silver;
+    width: 90%;
+}
+
+#education{
+    width:48%;
+    float:left;
+}
+#skills{
+    width:48%;
+    float:right;
+    min-height: 1em;
+}
