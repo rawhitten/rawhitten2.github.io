@@ -66,6 +66,12 @@ img {
   box-shadow: 5px 5px 5px #111;
 }
 
+.copyright {
+  font-family: 'Work Sans';
+  color: #c7c4ff;
+  padding: 0.4em;
+}
+
 .wrapper {
     max-width: 1150px;
     margin: auto;
